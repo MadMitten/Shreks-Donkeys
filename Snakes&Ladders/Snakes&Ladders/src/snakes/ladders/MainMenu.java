@@ -36,13 +36,12 @@ public class MainMenu {
             switch(menuChoice)
             {
                 case 1:
-                    PlayGame pg1 = new PlayGame();
-                    pg1.playGame();         
-                    Players p1 = new Players();
-                break;
+                PlayGame pg1 = new PlayGame();
+                pg1.playGame();         
+                    break;
                 case 2:
-                  ViewRules VR1 = new ViewRules();  
-                  VR1.viewRules();
+                ViewRules VR1 = new ViewRules();  
+                VR1.viewRules();
                     break;
                 case 3: 
                     break;
