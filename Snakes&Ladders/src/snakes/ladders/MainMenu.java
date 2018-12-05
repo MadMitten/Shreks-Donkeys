@@ -36,20 +36,18 @@ public class MainMenu {
             switch(menuChoice)
             {
                 case 1:
-                    PlayGame p1 = new PlayGame();
-                    p1.playGame();
-                            
-                break;
+                PlayGame pg1 = new PlayGame();
+                pg1.playGame();         
+                    break;
                 case 2:
-                  ViewRules VR1 = new ViewRules();  
-                  VR1.viewRules();
+                ViewRules VR1 = new ViewRules();  
+                VR1.viewRules();
                     break;
                 case 3: 
                     break;
                 case 4: 
                     break;
                 default:System.out.println("This is not a valid option.");
-
             }
        }//End of while loop.
     }//End of main method.

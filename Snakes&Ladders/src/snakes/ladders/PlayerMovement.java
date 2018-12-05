@@ -9,8 +9,8 @@ package snakes.ladders;
  *
  * @author k00225361
  */
-public class Analytics {
+public interface PlayerMovement {
     
-    
+  
     
 }

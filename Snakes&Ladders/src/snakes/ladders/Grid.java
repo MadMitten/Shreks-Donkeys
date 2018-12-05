@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package snakes.ladders;
-import java.util.*;
 
 /**
  *
@@ -17,18 +16,24 @@ public class Grid {
       String empty;
       String shrek;
       String donkey;
+      String fiona;
+      String puss;
      
-     public Grid(String e,String s,String d)
+     public Grid(String e,String s,String d, String f, String p)
      {
          empty = e;
          shrek = s;
          donkey = d;
+         fiona = f;
+         puss = p;
      }
      
      public Grid() {
-        empty = "_,";
-        shrek = "S,";
-        donkey = "D,";
+        empty = "_ ";
+        shrek = "S ";
+        donkey = "D ";
+        fiona = "F ";
+        puss = "P ";
     }
 
     public String[] getGridSize() {
@@ -62,8 +67,25 @@ public class Grid {
     public  void setDonkey(String donkey) {
         this.donkey = donkey;
     }
-     
     
+    public String getFiona() {
+        return fiona;
+    }
+
+    public void setFiona(String fiona) {
+        this.fiona = fiona;
+    }
+
+    public String getPuss() {
+        return puss;
+    }
+
+    public void setPuss(String puss) {
+        this.puss = puss;
+    }
+     
+    //Popluates the array with shreks,donkeys,fions and puss. 
+    //Theses are the items that will affect the player if they land on them 
     public String[] viewGrid(String shrek,String empty,String donkey)
     {
         for(int i = 0; i < gridSize.length; i++)
@@ -80,13 +102,24 @@ public class Grid {
            else if(i == 33 || i == 56 || i == 76){
                gridSize[i] = getDonkey();
            }//End if statement
+           else if(i == 69)
+           {
+               gridSize[i] = getFiona();
+           }
+           else if(i == 63 && i == 27)
+           {
+               gridSize[i] = getPuss();
+           }
+                    
            else{
                gridSize[i] = getEmpty();
            }
            System.out.print(gridSize[i]);
         
         }//End of for.
-       
+        
+        System.out.println("\n");
         return gridSize;
     }//End of method.
+  
 }//End of class.
