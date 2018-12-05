@@ -13,6 +13,8 @@ package snakes.ladders;
  */
 public class Grid {
       String[] gridSize = new String[105];
+      int player1;
+      int player2;
       String empty;
       String shrek;
       String donkey;
@@ -90,10 +92,10 @@ public class Grid {
     {
         for(int i = 0; i < gridSize.length; i++)
         {
-            if (i % 15 == 0) 
-            {
-               System.out.println("\n");
-            }
+           if (i % 15 == 0) 
+           {
+              System.out.println("\n");
+           }
            
            if(i == 4 || i == 12 || i == 24 || i == 41)
            {
