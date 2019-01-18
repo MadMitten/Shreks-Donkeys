@@ -1,0 +1,17 @@
+_____________________________________________________________________________________________________________________________
+-----------------------------------------------------------------------------------------------------------------------------
+-   -   -   -   -   -   -   -   -   -   -   -   -   -   -   Rules   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -
+-----------------------------------------------------------------------------------------------------------------------------
+- There are two players.
+- There is a Board and it has 105 spaces on it.
+- To move players they will have to roll a six sided dice.
+- If the land on a number between 1 - 6 they will have to move the specfic amount of it.
+- First Player to land on or pass the 105 section of the Board wins the game.
+- There are Four types of obstacles on the board in the game and the are called Shrek, Fiona, Dragon and Donkey.
+- (S) =  move randomly between 1 and 10 spaces in the direction of section 105.
+- (F) they automatically win the game.
+- (D) move randomly between 1 and 10 spaces away from the direction of section 105.
+- (P) they will automatically sent back to be the begining of the game.
+- You score will go up if you land on a shrek and down if you hit a donkey.
+-----------------------------------------------------------------------------------------------------------------------------
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
